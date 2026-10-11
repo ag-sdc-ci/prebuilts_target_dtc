@@ -1,0 +1,67 @@
+// Auto-generated prebuilt Blueprint for external/dtc
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.dtc
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+cc_prebuilt_binary {
+    name: "dtc",
+    srcs: ["bin/dtc"],
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "fdtdump",
+    srcs: ["bin/fdtdump"],
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "fdtget",
+    srcs: ["bin/fdtget"],
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "fdtput",
+    srcs: ["bin/fdtput"],
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "fdtoverlay",
+    srcs: ["bin/fdtoverlay"],
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfdt",
+    srcs: ["lib/libfdt.so"],
+    export_include_dirs: ["include"],
+    check_elf_files: false,
+    prefer: true,
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_prebuilt_library_static {
+    name: "libfdt",
+    srcs: ["lib/libfdt.a"],
+    export_include_dirs: ["include"],
+    prefer: true,
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_library_headers {
+    name: "libfdt_headers",
+    export_include_dirs: ["include"],
+    vendor_available: true,
+    host_supported: true,
+}

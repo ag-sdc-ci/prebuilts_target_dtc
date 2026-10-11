@@ -1,0 +1,33 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_convert-dtsv0-x86_64-v2.so",
+		    "libdummy_binary_convert-dtsv0.so",
+		    "libdummy_binary_dtc-x86_64-v2.so",
+		    "libdummy_binary_dtc.so",
+		    "libdummy_binary_fdtdump-x86_64-v2.so",
+		    "libdummy_binary_fdtdump.so",
+		    "libdummy_binary_fdtget-x86_64-v2.so",
+		    "libdummy_binary_fdtget.so",
+		    "libdummy_binary_fdtoverlay-x86_64-v2.so",
+		    "libdummy_binary_fdtoverlay.so",
+		    "libdummy_binary_fdtoverlaymerge-x86_64-v2.so",
+		    "libdummy_binary_fdtoverlaymerge.so",
+		    "libdummy_binary_fdtput-x86_64-v2.so",
+		    "libdummy_binary_fdtput.so",
+		    "libdummy_binary_libfdt.a-x86_64-v2.so",
+		    "libdummy_binary_libfdt.a.so",
+		    "libdummy_ext_dtc-x86_64-v2.so",
+		    "libdummy_ext_dtc.so",
+		    "libdummy_headers_ext_dtc-x86_64-v2.so",
+		    "libdummy_headers_ext_dtc.so",
+		    "libfdt-x86_64-v2.so",
+		    "libfdt-x86_64-v2.so.1",
+		    "libfdt.so",
+		    "libfdt.so.1"
+	],
+	"requireLibs": [	
+		    "libc.so",
+		    "libdl.so"
+	],
+	"visible": true
+}
