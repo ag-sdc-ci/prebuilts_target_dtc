@@ -10,6 +10,15 @@ cc_prebuilt_binary {
     srcs: ["bin/dtc"],
     check_elf_files: false,
     prefer: true,
+    host_supported: true,
+}
+
+cc_prebuilt_binary {
+    name: "dtdiff",
+    srcs: ["bin/dtc"],
+    check_elf_files: false,
+    prefer: true,
+    host_supported: true,
 }
 
 cc_prebuilt_binary {
@@ -17,6 +26,7 @@ cc_prebuilt_binary {
     srcs: ["bin/fdtdump"],
     check_elf_files: false,
     prefer: true,
+    host_supported: true,
 }
 
 cc_prebuilt_binary {
